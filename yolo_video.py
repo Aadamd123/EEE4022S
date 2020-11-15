@@ -122,6 +122,8 @@ while True:
 
 
     # Display live frame detections
+    # If executing with Julia notebook or Google Colab this will need to be changed
+    # to cv2_imshow
     cv2.imshow('detection', frame)
 
     # Cancel program early with q press
